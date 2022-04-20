@@ -3,9 +3,8 @@ const ip = require("ip");
 const config = {
     app: {
       name: "NodeJS API",
-      host: `http://${ip.address()}`,
-      port: 3000,
-      communication: true,
+      host: `0.0.0.0`,
+      port: 8080,
     },
     db: {
       host: "mongodb+srv://karyausahasejahtera.wlmj3.mongodb.net",
