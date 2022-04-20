@@ -8,12 +8,9 @@
     "ip": "^1.1.5",
     "mongoose": "^6.2.6"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
   "scripts": {
     "create-crud": "node devTools/generateCRUD.js",
-    "dev": "nodemon ."
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
