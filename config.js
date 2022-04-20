@@ -8,10 +8,10 @@ const config = {
       communication: true,
     },
     db: {
-      host: "mongodb+srv://luthor:luthfi@28@karyausahasejahtera.wlmj3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+      host: "mongodb+srv://karyausahasejahtera.wlmj3.mongodb.net",
       database: "karyausahasejahtera",
-      username: "",
-      password: "",
+      username: "luthor",
+      password: "luthfi@28",
     },
     apiKey: "karyausahasejahteraa",
   };

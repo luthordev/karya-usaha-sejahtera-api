@@ -6,7 +6,11 @@ const routes = require("./routes");
 const Auth = require("./Utils/auth");
 const config = require("./config");
 
-mongoose.connect(`${config.db.host}/${config.db.database}`, {
+mongoose.connect(`${config.db.host}`, {
+  user: config.db.username,
+  pass: config.db.password,
+  dbName: config.db.database,
+  ssl: true,
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
